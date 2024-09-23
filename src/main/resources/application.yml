@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: tacoworld-email
+  main:
+    web-application-type: none
+
+tacoworld:
+  email:
+    host: imap.tacoworld.com
+    mailbox: INBOX
+    username: ts%n1qlx-$6!
+    password: cx*}3f</8fjw!
+    poll-rate: 1000
+  api:
+    url: http://localhost:8080/orders/fromEmail
